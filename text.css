@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("backg.png");
+    background-size: 1500px 1500px;
+   /* background-color: rgb(67, 87, 146);*/
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: #fcfcf2;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #041966;
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+}
+.head{
+    color: white; /* Set text color */
+    font-family: sans-serif; /* Set font family */
+    text-align: center; /* Center the text */
+    text-decoration: solid;
+    font-weight:900;
+    margin-top: 50px; /* Add top margin */
+    padding: 50px;
+}
+.para{
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: center;
+    color: bisque;
+}
